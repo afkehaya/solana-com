@@ -37,9 +37,9 @@ SPEs offer the following benefits:
 
 - **Adaptable Consensus**: SPEs can be configured with modified consensus rules or alternative algorithms to support custom logic or jurisdictional constraints.
 
-- **Flexible Infrastructure Options**: Deploy your SPE, validators, and RPC nodes across your infrastructure your self with [SVMKit](https://github.com/abklabs/svmkit-examples) or work with managed service providers like Triton One, Syndica, or Helius.
+- **Flexible Infrastructure Options**: Deploy your SPE, validators, and RPC nodes across your infrastructure yourself with [SVMKit](https://github.com/abklabs/svmkit-examples/tree/main/aws-network-spe-py) or work with managed service providers like Triton One, Syndica, or Helius.
 
-- **Realistic Development & Testing Environments**: SPEs provide production-like environments for testing programs, plugins (e.g., gRPC), and infrastructure workflows—without exposing work-in-progress to the public network.
+- **Realistic Development & Testing Environments**: SPEs provide production-like environments for testing programs, plugins (e.g., yellowstone-gRPC), and infrastructure workflow, without exposing work-in-progress to the public network.
 
 With Solana Permissioned Environments, organizations gain the ability to harness Solana’s core performance within a framework tailored to business, security, and regulatory needs.
 
@@ -92,17 +92,16 @@ development and resources.
 
 Deploying a Solana Permissioned Environment can be done in a variety of ways,
 depending on your organization's needs and resources. SPEs can be deployed
-locally for testing and development, or within custom infrastructure leveraging open source tools like [SVMKit](https://github.com/abklabs/svmkit-examples). You can
+locally for testing and development, or within custom infrastructure leveraging open source tools like [SVMKit](https://github.com/abklabs/svmkit-examples/tree/main/aws-network-spe-py). You can
 also utilize some managed services providers such as [Helius](https://www.helius.dev/),
 [Triton](https://triton.one/), or [Edgevana](https://www.edgevana.com/) to
 deploy your SPE.
 
 ## How to get started with SPEs
 
-ABK labs, the maintainer of [SVMKit](https://github.com/abklabs/svmkit-examples) has provided a demo of a single validator SPE that you can spin up 
-locally. 
+ABK labs, the maintainer of [SVMKit](https://github.com/abklabs/svmkit-examples/tree/main/aws-network-spe-py) has provided a demo for  for deploying a configurable SPE in AWS using pulumi.
 
-This demo includes an RPC service and the use of token extensions. It is 
+This demo includes an RPC service and the use of token extensions. It is
 meant to be a good base to build off of for your SPE offering
 
 
